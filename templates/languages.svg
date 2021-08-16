@@ -7,13 +7,15 @@ svg {
 }
 
 #background {
-  width: calc(100% - 10px);
+  width: calc(100% - 10px);\
+  background-color: #7fb59e;
   height: calc(100% - 10px);
   fill: white;
   stroke: rgb(225, 228, 232);
   stroke-width: 1px;
   rx: 6px;
   ry: 6px;
+  
 }
 
 foreignObject {
