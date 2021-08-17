@@ -4,11 +4,12 @@ svg {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   font-size: 14px;
   line-height: 21px;
-  background-color: #7fb59e;
+  background-color: #7fcb59e;
 }
 
 #background {
   width: calc(100% - 10px);
+  background-color: #7fcb59e; 
   height: calc(100% - 10px);
   fill: white;
   stroke: rgb(225, 228, 232);
@@ -75,16 +76,18 @@ div.ellipsis {
 
 .progress {
   display: flex;
+  
   height: 8px;
   overflow: hidden;
-  background-color: rgb(225, 228, 232);
+<!--   background-color: rgb(225, 228, 232); -->
+  background-color: #7fcb59e;
   border-radius: 6px;
   outline: 1px solid transparent;
   margin-bottom: 1em;
 }
 
 .progress-item {
-  outline: 2px solid rgb(225, 228, 232);
+  outline: 2px solid  #7fb59e;
   background-color: #7fb59e;
   border-collapse: collapse;
 }
