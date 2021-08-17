@@ -68,7 +68,7 @@ div.ellipsis {
 }
 
 .octicon {
-  background-color: #7fb59e;
+<!--   background-color: #7fb59e; -->
   fill: rgb(88, 96, 105);
   margin-right: 0.5ch;
   vertical-align: top;
@@ -79,16 +79,16 @@ div.ellipsis {
   
   height: 8px;
   overflow: hidden;
-<!--   background-color: rgb(225, 228, 232); -->
-  background-color: #7fcb59e;
+  background-color: rgb(3, 252, 111);
+<!--   background-color: #7fcb59e; -->
   border-radius: 6px;
   outline: 1px solid transparent;
   margin-bottom: 1em;
 }
 
 .progress-item {
-  outline: 2px solid  #7fb59e;
-  background-color: #7fb59e;
+  outline: 2px solid  rgb(3, 252, 111);
+<!--   background-color: #7fb59e; -->
   border-collapse: collapse;
 }
 
