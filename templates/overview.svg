@@ -5,7 +5,6 @@ svg {
   font-size: 14px;
   line-height: 21px;
 }
-
 #background {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
@@ -15,18 +14,15 @@ svg {
   rx: 6px;
   ry: 6px;
 }
-
 foreignObject {
   width: calc(100% - 10px - 32px);
   height: calc(100% - 10px - 32px);
 }
-
 table {
   width: 100%;
   border-collapse: collapse;
   table-layout: auto;
 }
-
 th {
   padding: 0.5em;
   padding-top: 0;
@@ -35,7 +31,6 @@ th {
   font-weight: 600;
   color: rgb(3, 102, 214);
 }
-
 td {
   margin-bottom: 16px;
   margin-top: 8px;
@@ -44,7 +39,6 @@ td {
   line-height: 18px;
   color: rgb(88, 96, 105);
 }
-
 tr {
   transform: translateX(-200%);
   animation-duration: 2s;
@@ -52,16 +46,11 @@ tr {
   animation-function: ease-in-out;
   animation-fill-mode: forwards;
 }
-
-  .bg{
-  background-color: #d8e0d5;
-
 .octicon {
   fill: rgb(88, 96, 105);
   margin-right: 1ch;
   vertical-align: top;
 }
-
 @keyframes slideIn {
   to {
     transform: translateX(0);
@@ -72,7 +61,7 @@ tr {
 <rect x="5" y="5" id="background" />
 <g>
 <foreignObject x="21" y="21" width="318" height="168">
-<div xmlns="http://www.w3.org/1999/xhtml" class="bg">
+<div xmlns="http://www.w3.org/1999/xhtml">
 
 <table>
 <thead><tr style="transform: translateX(0);">
