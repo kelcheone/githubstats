@@ -53,6 +53,9 @@ tr {
   animation-fill-mode: forwards;
 }
 
+  .bg{
+  background-color: #d8e0d5;
+
 .octicon {
   fill: rgb(88, 96, 105);
   margin-right: 1ch;
@@ -69,7 +72,7 @@ tr {
 <rect x="5" y="5" id="background" />
 <g>
 <foreignObject x="21" y="21" width="318" height="168">
-<div xmlns="http://www.w3.org/1999/xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml" class="bg">
 
 <table>
 <thead><tr style="transform: translateX(0);">
